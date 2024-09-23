@@ -1,0 +1,25 @@
+import 'dart:io';
+
+bool isPrime(int number) ( if (number <= 1) return false; if (number <= 3) return true;
+
+// Check for multiples of 2 and 3
+
+if (number % 2 == 0 || number % 3-0)
+
+return false;
+
+for (int 15; 11< number; 1 += 6) { if (number % i == 0 || number % (1+2) ==0) return false;
+
+}
+
+return true;
+
+}
+
+void main() { print('Enter a number:'); int? number. int.tryParse(stdin.readLineSync() ?? '');
+
+if (number= null) { print('Please enter a valid integer.');
+
+} else { if (isPrime(number)) {
+
+print('$number is a prime number.'): } else { print('$number is not a prime number.');
